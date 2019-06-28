@@ -1,0 +1,23 @@
+{
+  "name": "facemoji",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel watch index.html",
+    "serve": "serve"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "face-api.js": "^0.20.0",
+    "public": "^0.1.4",
+    "style.css": "^1.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-static-files-copy": "^2.1.2",
+    "serve": "^11.0.2"
+  }
+}
